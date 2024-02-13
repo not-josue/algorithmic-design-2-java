@@ -43,7 +43,7 @@
 - Adding together two vectors first requires each vector have the same number of components (the same size). The result of vector addition creates a new vector where its components are the result of each component-wise addition.
 - Example:
 
-\[
+```math
 \begin{pmatrix}
 5 \\
 7
@@ -58,14 +58,13 @@
 17 \\
 10
 \end{pmatrix}
-\]
-
+```
 ### Vector Subtraction
 
 - Subtracting two vectors first requires each vector have the same number of components (the same size). The result of vector subtraction creates a new vector where its components are the result of each component-wise subtraction.
 - Example:
 
-\[
+```math
 \begin{pmatrix}
 5 \\
 7 \\
@@ -86,14 +85,14 @@
 -4 \\
 14
 \end{pmatrix}
-\]
+```
 
 ### Vector Magnitude
 
 - Finding the magnitude of a vector requires finding the square root of the sum of its components squared.
 - Example:
 
-\[
+```math
 \left |
 \begin{pmatrix}
 2 \\
@@ -108,7 +107,7 @@
 \sqrt{90}
 \approx
 9.48
-\]
+```
 
 ## Example Dialogue
 
