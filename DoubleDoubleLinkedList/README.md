@@ -86,7 +86,7 @@ Write a doubly linked list of type double. This link list is similar to the sing
 
 ### Remove Current Node Visual Concept
 
-![Remove Current Node](/Images/image3.png)
+![Remove Current Node](Images/image3.png)
 
 ## Example Dialogue
 
