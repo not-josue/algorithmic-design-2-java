@@ -1,0 +1,80 @@
+Name: Arcanine
+Item: Assault Vest
+Gender: Male
+Nature: Jolly
+Ability: Intimidate
+Type(s): Fire
+Moves: Flare Blitz, Wild Charge, Close Combat, Extremespeed
+IVs: HP: 31 Attack: 31 Defense: 31 Special_Atk: 31 Special_Def: 31 Speed: 31
+EVs: HP: 0 Attack: 252 Defense: 4 Special_Atk: 0 Special_Def: 0 Speed: 252
+
+Name: Cinderace
+Item: Heavy-Duty Boots
+Gender: Female
+Nature: Jolly
+Ability: Libero
+Type(s): Fire
+Moves: Pyro Ball, High Jump Kick, Sucker Punch, U-turn
+IVs: HP: 31 Attack: 31 Defense: 31 Special_Atk: 31 Special_Def: 31 Speed: 31
+EVs: HP: 0 Attack: 252 Defense: 4 Special_Atk: 0 Special_Def: 0 Speed: 252
+
+Name: Hitmontop
+Item: Assault Vest
+Gender: Male
+Nature: Adamant
+Ability: Technician
+Type(s): Fighting
+Moves: Fake Out, Mach Punch, Bullet Punch, Sucker Punch
+IVs: HP: 31 Attack: 31 Defense: 31 Special_Atk: 31 Special_Def: 31 Speed: 31
+EVs: HP: 252 Attack: 252 Defense: 4 Special_Atk: 0 Special_Def: 0 Speed: 0
+
+Name: Sceptile
+Item: Sceptilite
+Gender: Female
+Nature: Timid
+Ability: Overgrow
+Type(s): Grass
+Moves: Leaf Storm, Dragon Pulse, Leech Seed, Hidden Power: Ice
+IVs: HP: 31 Attack: 31 Defense: 31 Special_Atk: 31 Special_Def: 31 Speed: 31
+EVs: HP: 0 Attack: 0 Defense: 0 Special_Atk: 252 Special_Def: 4 Speed: 252
+
+Name: Arcanine
+Item: Assault Vest
+Gender: Male
+Nature: Jolly
+Ability: Intimidate
+Type(s): Fire
+Moves: Flare Blitz, Wild Charge, Close Combat, Extremespeed
+IVs: HP: 31 Attack: 31 Defense: 31 Special_Atk: 31 Special_Def: 31 Speed: 31
+EVs: HP: 0 Attack: 252 Defense: 4 Special_Atk: 0 Special_Def: 0 Speed: 252
+
+Name: Cinderace
+Item: Heavy-Duty Boots
+Gender: Female
+Nature: Jolly
+Ability: Libero
+Type(s): Fire
+Moves: Pyro Ball, High Jump Kick, Sucker Punch, U-turn
+IVs: HP: 31 Attack: 31 Defense: 31 Special_Atk: 31 Special_Def: 31 Speed: 31
+EVs: HP: 0 Attack: 252 Defense: 4 Special_Atk: 0 Special_Def: 0 Speed: 252
+
+Name: Hitmontop
+Item: Assault Vest
+Gender: Male
+Nature: Adamant
+Ability: Technician
+Type(s): Fighting
+Moves: Fake Out, Mach Punch, Bullet Punch, Sucker Punch
+IVs: HP: 31 Attack: 31 Defense: 31 Special_Atk: 31 Special_Def: 31 Speed: 31
+EVs: HP: 252 Attack: 252 Defense: 4 Special_Atk: 0 Special_Def: 0 Speed: 0
+
+Name: Sceptile
+Item: Sceptilite
+Gender: Female
+Nature: Timid
+Ability: Overgrow
+Type(s): Grass
+Moves: Leaf Storm, Dragon Pulse, Leech Seed, Hidden Power: Ice
+IVs: HP: 31 Attack: 31 Defense: 31 Special_Atk: 31 Special_Def: 31 Speed: 31
+EVs: HP: 0 Attack: 0 Defense: 0 Special_Atk: 252 Special_Def: 4 Speed: 252
+

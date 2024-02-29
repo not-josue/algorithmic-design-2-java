@@ -8,6 +8,7 @@ Entry level Java programs that can be found in beginner university data structur
 
 ## Programs
 
+- [Bill's PC](https://github.com/not-josue/algorithmic-design-2-java/tree/main/BillsPC)
 - [Double Double Linked List](https://github.com/not-josue/algorithmic-design-2-java/tree/main/DoubleDoubleLinkedList)
 - [File I/O Problems](https://github.com/not-josue/algorithmic-design-2-java/tree/main/FileIOProblems)
 - [Grocery List](https://github.com/not-josue/algorithmic-design-2-java/tree/main/GroceryList)

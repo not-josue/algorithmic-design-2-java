@@ -1,0 +1,36 @@
+Box Name: Fire
+
+Name: Missingno
+Item: None
+Gender: None
+Nature: None
+Ability: None
+Type(s): None
+Moves: None, None, None, None
+IVs: HP: 0 Attack: 0 Defense: 0 Special_Atk: 0 Special_Def: 0 Speed: 0
+EVs: HP: 0 Attack: 0 Defense: 0 Special_Atk: 0 Special_Def: 0 Speed: 0
+
+Box Name: Water
+
+Name: Missingno
+Item: None
+Gender: None
+Nature: None
+Ability: None
+Type(s): None
+Moves: None, None, None, None
+IVs: HP: 0 Attack: 0 Defense: 0 Special_Atk: 0 Special_Def: 0 Speed: 0
+EVs: HP: 0 Attack: 0 Defense: 0 Special_Atk: 0 Special_Def: 0 Speed: 0
+
+Box Name: Dragon
+
+Name: Missingno
+Item: None
+Gender: None
+Nature: None
+Ability: None
+Type(s): None
+Moves: None, None, None, None
+IVs: HP: 0 Attack: 0 Defense: 0 Special_Atk: 0 Special_Def: 0 Speed: 0
+EVs: HP: 0 Attack: 0 Defense: 0 Special_Atk: 0 Special_Def: 0 Speed: 0
+
