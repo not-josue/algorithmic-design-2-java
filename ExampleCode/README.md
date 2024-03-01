@@ -32,6 +32,12 @@ These are sample code that can be used to solve problems throughout the reposito
 
 - Generic Linked List Stack
 
+## Recursion
+
+- Simple Recursion
+
+- Sierpinski's Carpet
+
 ## Searching Algorithms
 
 - Linear Search
