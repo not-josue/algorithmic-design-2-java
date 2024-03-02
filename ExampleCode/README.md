@@ -12,11 +12,6 @@ These are sample code that can be used to solve problems throughout the reposito
 
 - Adjacency Matrix Graph
 
-## Heaps
-
-- Max Heap
-
-- Min Heap
 
 ## Interfaces
 
@@ -54,7 +49,10 @@ These are sample code that can be used to solve problems throughout the reposito
 
 - Quick Sort
 
-## Tree
+## Trees
 
 - Binary Search Tree
 
+- Max Heap
+
+- Min Heap
