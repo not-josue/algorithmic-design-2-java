@@ -87,7 +87,7 @@ Type: <<type>> Weight: <<weight>>
 
 ## Example Output:
 
-```java
+```
 Welcome to the fruit tree!
 
 Please enter a Fruit File Name

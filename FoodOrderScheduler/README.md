@@ -93,7 +93,7 @@ Customer: <<customer’s name>>, Order: <<order’s name>>, Cooking Time Left: <
 
 ## Example Dialogue
 
-```java
+```
 -------------------------------------------
 
 Starting Order Scheduler Simulation
