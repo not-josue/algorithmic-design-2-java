@@ -1,8 +1,10 @@
 /*
- * An example of a Generic Binary Search Tree.
+ * An example of a Generic Binary Search Tree with added Shape operations.
  * Written By: Josue
  */
-
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
 public class LinkedBST<T extends Comparable<T>>
 {
 	// private internal class
@@ -271,6 +273,126 @@ public class LinkedBST<T extends Comparable<T>>
 														// given node is the
 														// smallest
 		else return findMinInTree(aNode.leftChild);
+	}
+
+	/**
+	 * Calls a recursive method to find the largest value.
+	 * 
+	 * @return the largest value
+	 */
+	public T getMax()
+	{
+		return findMaxInTree(root).data;
+	}
+
+	/**
+	 * Finds the Node with the largest value.
+	 * 
+	 * @param aNode
+	 *            first used as the starting Node, root, then used recursively
+	 *            on the right child
+	 * @return the Node that represents the largest value, or null if the list
+	 *         is empty or a leaf is found
+	 */
+	private Node findMaxInTree(Node aNode)
+	{
+		if (aNode == null) return null;
+		else if (aNode.rightChild == null) return aNode;
+
+		else return findMaxInTree(aNode.rightChild);
+	}
+
+	/**
+	 * Calls a recursive method to remove values greater than the given data.
+	 * 
+	 * @param aData
+	 *            the threshold or max range
+	 */
+	public void removeGreaterThan(T aData)
+	{
+		root = removeGreaterThan(root, aData);
+	}
+
+	/**
+	 * Recursively removes all Nodes containing values greater than the given
+	 * data.
+	 * 
+	 * @param node
+	 *            the current Node in the tree
+	 * @param value
+	 *            the threshold value
+	 * @return the updated Node after removal
+	 */
+	private Node removeGreaterThan(Node aNode, T aData)
+	{
+		if (aNode == null) return null;
+
+		// remove nodes greater than the given value from the right subtree
+		aNode.rightChild = removeGreaterThan(
+				aNode.rightChild, aData);
+
+		// if the current node's value is greater than the threshold value,
+		// remove the current node and its left subtree
+		if (aNode.data.compareTo(aData) > 0)
+		{
+			return removeGreaterThan(aNode.leftChild,
+					aData);
+		}
+
+		// if the current node's value is less than or equal to the threshold
+		// value, keep the current node and its left subtree
+		aNode.leftChild = removeGreaterThan(aNode.leftChild,
+				aData);
+
+		return aNode;
+	}
+
+	/**
+	 * Creates or overwrites a file based on a given file name and calls a
+	 * recursive method that uses a Stack Based Depth-First In-Order approach,
+	 * to export all Nodes in the Tree to the file. This approach results in
+	 * exporting the Tree in ascending order (by Area).
+	 * 
+	 * @param filename
+	 *            the file name to create or overwrite
+	 */
+	public void exportTree(String filename)
+	{
+		try (PrintWriter writer = new PrintWriter(
+				new File(filename)))
+		{
+			exportNode(root, writer);
+		}
+		catch (IOException e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * Recursively exports all Nodes in the Tree using a Stack Based Depth-First
+	 * In-Order approach to a file. If the current Node is empty, signaling a
+	 * leaf or an empty tree, no action is taken. This approach follows the left
+	 * path until a leaf is found which results in the smallest value (by Area)
+	 * being exported first, then returning and exporting the parent, followed
+	 * by exporting the right child. The outcome is the Tree being exported in
+	 * ascending order (by Area).
+	 * 
+	 * @param aNode
+	 *            the Node to print
+	 * @param writer
+	 *            an instance of PrintWriter
+	 */
+	private void exportNode(Node aNode, PrintWriter writer)
+	{
+		if (aNode == null) return;
+
+		exportNode(aNode.leftChild, writer);
+		// type cast the object to a shape
+		Shape aShape = (Shape) aNode.data;
+		// use the export method instead of toString
+		writer.println(aShape.export());
+		exportNode(aNode.rightChild, writer);
 	}
 
 }
