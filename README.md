@@ -17,6 +17,7 @@ Entry level Java programs that can be found in beginner university data structur
 - [Process Queue Simulator](https://github.com/not-josue/algorithmic-design-2-java/tree/main/ProcessQueueSimulator)
 - [Robot Command Simulator](https://github.com/not-josue/algorithmic-design-2-java/tree/main/RobotCommandSimulator)
 - [Shape Tree](https://github.com/not-josue/algorithmic-design-2-java/tree/main/ShapeTree)
+- [Sheep Shearing Scheduler](https://github.com/not-josue/algorithmic-design-2-java/tree/main/SheepShearingScheduler)
 - [Showcase Showdown](https://github.com/not-josue/algorithmic-design-2-java/tree/main/ShowcaseShowdown)
 - [Sierpinski's Triangle](https://github.com/not-josue/algorithmic-design-2-java/tree/main/SierpinskisTriangle)
 - [Sort sort](https://github.com/not-josue/algorithmic-design-2-java/tree/main/SortSort)
